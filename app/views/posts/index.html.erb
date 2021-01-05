@@ -1,25 +1,14 @@
-<h1>All posts </h1>
-<nav class="navbar-menu">
-    <span class="nav-left">Members Only</span>
-    <div class="nav-right">
-        <%= link_to "signup", new_user_registration_path, class: "signup" %>
-        <%= link_to "signin", new_user_session_path, class: "signin" %>
-        <%= link_to "logout", destroy_user_session_path, method: :delete, class: "signout" %>
-        
-    </div>
-</nav>
-
 <main class="main-section">
+  <h1>All posts</h1>
     <% @posts.each do | post | %>
         <article class="post">
             <h3 class="post-heading">
             <%= post.title %>
             </h3>
             <% if user_signed_in? %>
-                <small><%= post.user.email %></small>
+              <small><%= "@#{post.user.username}" %></small>
                 <% end %> 
             <p class="post-body"><%= post.body %></p>
         </article>
         <% end %>
-
 </main>
