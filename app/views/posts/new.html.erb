@@ -1,0 +1,5 @@
+<%= simple_form_for @post, html: { id: 'post-form' } do |f| %>
+  <%= f.input :title, label: 'Title', error: 'Title should be present', input_html: { class: 'title' }%>
+  <%= f.input :body, label: 'Body',error: "Body can't be blank", input_html: {class: 'body'}%>
+  <%= f.button :submit, input_html: {class: "submit"}%>
+  <% end %> 

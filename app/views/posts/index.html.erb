@@ -1,0 +1,14 @@
+<main class="main-section">
+  <h1>All posts</h1>
+    <% @posts.each do | post | %>
+        <article class="post">
+            <h3 class="post-heading">
+            <%= post.title %>
+            </h3>
+            <% if user_signed_in? %>
+              <small><%= "@#{post.user.username}" %></small>
+                <% end %> 
+                <p class="post-body"><%= post.body %></p>
+        </article>
+        <% end %>
+</main>
