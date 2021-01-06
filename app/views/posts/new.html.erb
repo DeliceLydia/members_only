@@ -1,5 +1,5 @@
-<%= simple_form_for @post do |f| %>
-  <%= f.input :title, label: 'Title', error: 'Username is mandatory, please specify one' %>
-  <%= f.input :body, label: 'Body'%>
-  <%= f.button :submit %>
+<%= simple_form_for @post,  html: { id: 'post-form' } do |f| %>
+  <%= f.input :title, label: 'Title', error: 'Username is mandatory, please specify one', input_html: { class: 'title' }%>
+  <%= f.input :body, label: 'Body', input_html: {class: 'body'}%>
+  <%= f.button :submit, input_html: {class: "submit"}%>
 <% end %>
