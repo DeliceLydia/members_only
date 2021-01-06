@@ -12,8 +12,8 @@
 
 ## About Project
 
-In this project we implemented authentication systems so users can only access areas of a site they are authorized to.
-
+In this project we have implemented an authentication system to a post sharing applicatioin. Users can only access areas of a site they are authorized to.
+![screenshot](./screenshot.jpg)
 ## Built With
 
 - Ruby v2.7.2
@@ -72,16 +72,18 @@ Feel free to check the [issues page](https://github.com/DeliceLydia/members_only
 
 ## Authors
 
+  *Anas Siddiqui*
+  - GitHub: [@githubhandle](https://github.com/smcommits)
+  - LinkedIn: [linkedIn](https://linkedin.com/in/sm-anas)
+
+
 👤
-
-
 👤 **Delice Lydia**
   - GitHub: [@githubhandle](https://github.com/DeliceLydia)
   - Twitter: [@twitterhandle](https://twitter.com/lameck721)
   - LinkedIn: [LinkedIn](https://twitter.com/IngabireLydia3)
 
 ## Acknowledgements
-
 Credits go to the following for providing guides on Ruby on Rails
   - [**Rails Guides**](https://guides.rubyonrails.org/form_helpers.html )
 
