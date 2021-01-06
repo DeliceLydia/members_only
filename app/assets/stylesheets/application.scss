@@ -13,36 +13,55 @@
  *= require_tree .
  *= require_self
  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   margin: 0;
+  background: #fff;
 }
 nav {
-  background: #edf1f5;
   padding: 1em;
   display: flex;
   justify-content: space-between;
   
   a {
     text-decoration: none;
-    color: #617691;
   }
 
-  .new-post-link {
-    color: #7ed2e1;
-    font-weight: 600;
-    padding-left: 2em;
-  }
+  
   .navbar-left {
+    .new-post-link {
+      background: #d7f5ea;
+      font-weight: 600;
+      border-radius: 10px;
+      color: #437866;
+      padding: 0.8em;
+      margin-left: 2em;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
+    } 
 
-    
+    .logo {
+      font-weight: 900;
+      color: #154d8b;
+      padding: .5em;
+      text-transform: uppercase;
+    }
   }
+
+  
   .nav-right {
-    * {
-      padding-left: 1em;
-  }
+
+    .signup, .signin, .signout {
+      background: #ebf3f7;
+      border-radius: 10px;
+      color: #5f8ca3;
+      font-weight: 600;
+      padding: 0.8em;
+      margin-left: 2em;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+        
+
 }
 }
 
