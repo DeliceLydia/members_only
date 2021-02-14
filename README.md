@@ -80,7 +80,7 @@ Feel free to check the [issues page](https://github.com/DeliceLydia/members_only
 👤
 👤 **Delice Lydia**
   - GitHub: [@githubhandle](https://github.com/DeliceLydia)
-  - Twitter: [@twitterhandle](https://twitter.com/lameck721)
+  - Twitter: [@twitterhandle](https://twitter.com/IngabireLydia)
   - LinkedIn: [LinkedIn](https://twitter.com/IngabireLydia3)
 
 ## Acknowledgements
